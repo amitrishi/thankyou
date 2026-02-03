@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Payment Successful</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +23,6 @@
     fbq('track', 'Purchase');
   </script>
 
-  <!-- AUTO REDIRECT TO SUPERPROFILE DOWNLOAD PAGE AFTER 1 SECOND -->
-  <script>
-    setTimeout(function () {
-      window.location.href = "https://superprofile.link/abcd1234";
-    }, 1000);
-  </script>
-
   <style>
     body {
       margin: 0;
@@ -46,53 +39,64 @@
       background: #ffffff;
       width: 92%;
       max-width: 420px;
-      padding: 28px 24px;
+      padding: 32px 26px;
       border-radius: 14px;
       box-shadow: 0 12px 30px rgba(0,0,0,0.08);
       text-align: center;
     }
 
-    .icon {
-      font-size: 42px;
-      margin-bottom: 12px;
-    }
-
     h1 {
       font-size: 20px;
-      margin: 0 0 8px;
+      margin-bottom: 14px;
       color: #111;
     }
 
     p {
       font-size: 14px;
-      line-height: 1.5;
+      line-height: 1.6;
       color: #555;
-      margin: 6px 0;
+      margin: 10px 0;
     }
 
-    .bold-line {
+    .bold {
       font-weight: 700;
-      margin-top: 10px;
       color: #111;
+    }
+
+    .soft {
+      color: #666;
+      font-size: 13px;
     }
   </style>
 </head>
 
 <body>
   <div class="card">
-    <div class="icon">✅</div>
     <h1>Payment Successful</h1>
 
-    <p><strong>We’re so glad you chose yourself.</strong></p>
-    <p>Welcome to the Desi Nuskhe ritual.</p>
+    <p class="bold">
+      Thank you for choosing yourself.<br>
+      This small step matters more than you think.
+    </p>
 
-    <p class="bold-line">STAY HEALTHY &amp; SPREAD WELLNESS</p>
+    <p>
+      Welcome to the <span class="bold">Desi Nuskhe ritual</span> 🌿
+    </p>
 
-    <p>Redirecting you to your ritual download…</p>
+    <p>
+      You will receive your ritual guide on <span class="bold">EMAIL</span><br>
+      and also on <span class="bold">WHATSAPP</span>.
+    </p>
+
+    <p class="soft">
+      Please check your inbox and WhatsApp messages for instant access.
+    </p>
+
+    <p class="bold">
+      Stay healthy &amp; spread wellness.
+    </p>
   </div>
 </body>
 </html>
 
-   
-     
-  
+      
