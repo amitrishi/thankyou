@@ -4,7 +4,7 @@
   <title>Payment Successful</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Meta Pixel -->
+  <!-- Meta Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -21,6 +21,13 @@
   <!-- Purchase Event -->
   <script>
     fbq('track', 'Purchase');
+  </script>
+
+  <!-- AUTO REDIRECT TO SUPERPROFILE DOWNLOAD PAGE AFTER 1 SECOND -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://superprofile.link/abcd1234";
+    }, 1000);
   </script>
 
   <style>
@@ -46,13 +53,13 @@
     }
 
     .icon {
-      font-size: 40px;
+      font-size: 42px;
       margin-bottom: 12px;
     }
 
     h1 {
       font-size: 20px;
-      margin: 0 0 10px;
+      margin: 0 0 8px;
       color: #111;
     }
 
@@ -60,24 +67,13 @@
       font-size: 14px;
       line-height: 1.5;
       color: #555;
-      margin: 8px 0;
+      margin: 6px 0;
     }
 
-    .note {
-      margin-top: 16px;
-      font-size: 13px;
-      color: #777;
-    }
-
-    .button {
-      display: block;
-      margin-top: 18px;
-      padding: 12px;
-      background: #111;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 14px;
+    .bold-line {
+      font-weight: 700;
+      margin-top: 10px;
+      color: #111;
     }
   </style>
 </head>
@@ -90,13 +86,13 @@
     <p><strong>We’re so glad you chose yourself.</strong></p>
     <p>Welcome to the Desi Nuskhe ritual.</p>
 
-    <p class="note">
-      You’ll receive your ritual guide on WhatsApp and email.<br>
-      You can also continue below.
-    </p>
+    <p class="bold-line">STAY HEALTHY &amp; SPREAD WELLNESS</p>
 
-    <!-- OPTIONAL BUTTON -->
-    <a href="#" class="button">Continue</a>
+    <p>Redirecting you to your ritual download…</p>
   </div>
 </body>
 </html>
+
+   
+     
+  
